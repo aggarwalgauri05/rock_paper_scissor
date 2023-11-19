@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color:rgb(206, 186, 225);
+    background-image: url("new2.jpeg");
+    background-size: cover ;
+}
+
+.container {
+    text-align: center;
+}
+
+.choices button {
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: aqua;
+
+}
+button:hover{
+    background-color: yellow;
+}
+h1{
+    font-size: 50px;
+    color: blue;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(200, 19, 19);
+}
+
+#computerChoice {
+    margin-top: 20px;
+    font-size: 40px;
+}
